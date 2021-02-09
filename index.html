@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yeonwoo's Portfolio</title>
+    <meta name="description" content="Portfolio for YeonWoo" />
+    <meta name="author" content="GrandFather" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/101cb91783.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fas fa-bomb"></i>
+        <a href="#">Yeonwoo</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">My Work</li>
+        <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+
+      <!-- Toggle button -->
+      <div class="button navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img
+        src="yeonwoo.png"
+        alt="yeonwoo's profile photo"
+        class="home__avatar"
+      />
+      <h1 class="home__title">Hello, <br />I'm Yeon Woo Jo <br />Nice Guy!</h1>
+      <h2 class="home__description">
+        Trying to learn how to study by myself,<br />
+        Looking for My way !!
+      </h2>
+      <button class="home__contact">CONTACT ME</button>
+      </div>
+      
+    </section>
+    <!-- About -->
+    <section id="about" class="section section__container">
+      <h1>About Me</h1>
+      <p>
+        성실과 인내로 혼자 공부하기 훈련을 하여 중학교에서 좋은 성적과 활동을
+        이루도록 노력한다. <br />
+        쉬면 죽는다 할아버지 말씀
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon"><i class="fas fa-book-reader"></i></div>
+          <h2 class="major__title">학습</h2>
+          <div class="major__description">영어: Hearing&Speaking<br />수학: EBS online 강좌</br>역사: 역사 책 읽고 외우기 </div>
+        </div>
+        <div class="major">
+          <div class="major__icon"><i class="fas fa-swimmer"></i></div>
+          <h2 class="major__title">운동</h2>
+          <div class="major__description">수영<br>농구</br>달리기</div>
+        </div>
+        <div class="major">
+          <div class="major__icon"><i class="fas fa-people-arrows"></i></div>
+          <h2 class="major__title">활동</h2>
+          <div class="major__description">혼자 여행 가보기</div>
+        </div>
+      </div>
+      <div class="about__jobs">
+        <div class="job">
+          <img src="Seoul_Kumyang.png" alt="서울금양초등학교" class="job__logo">
+          <div class="job__description">
+            <p class="job__name">6학년4반</p>
+            <p class="job__period">2016 ~ 2021</p>
+          </div>
+          
+        </div>
+        <div class="job">
+          <img src="baiksong.png" alt=서울용산백송어린이집"" class="job__logo">
+          <div class="job__description">
+            <p class="job__name">솔나무반</p>
+            <p class="job__period">2012 ~ 2016</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>4살때 부터 수영을 시작하여 해마다 전국 학생 수영대회 초등부에 출전하였으며
+          초등학교 방학중에는 용산구청, 숙명여대등에서 개최하는 로봇 만들기, 드론 만들기
+          영어캠프등에 참가하였습니다. 또한 방학중에는 Scratch 프로그래밍도 공부하여
+           게임도 만들었읍니다. 운동으로 체력 관리를 게을리 하지 않으려고 노력하며 
+           새로운 것에 관심을 두어 열심히 하렵니다.
+        </p>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">Skiils</h3>
+            <div class="skill">
+              <div class="skill_description">
+                <span>수영</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%;"></div>
+              </div>
+            </div>
+            
+            <div class="skill">
+              <div class="skill_description">
+                <span>Hardware 만들기</span>
+                <span>60%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 60%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill_description">
+                <span>Software</span>
+                <span>60%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 60%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>아래한글</span></li>
+                <li><span>그림판</span></li>
+                <li><span>Scratch program</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset__title">Etc</h3>
+              <ul class="etc__list">
+                <li><span>영어</span></li>
+                <li><span>수학</span></li>
+                <li><span>미술</span></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      
+      </div>
+    </section>
+    <!-- Work -->
+    <section id="work" class="section">
+      <div class="section__container">
+        <h1>My Work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+          <button class="category__btn selected" data-filter="*">
+            All <span class="category__count">4</span></button>
+          <button class="category__btn" data-filter="hardware">
+            Hardware<span class="category__count">1</span></button>
+          <button class="category__btn" data-filter="software">
+            Software<span class="category__count">1</span></button>
+          <button class="category__btn" data-filter="etc">
+            Etc <span class="category__count">1</span></button>
+        </div>
+        <div class="work__projects">
+          <a 
+            href="https://mid.ebs.co.kr/course/middle/index?clsfsSysId=22000010&orderClsfsSysId=22000014&viewType=thumbnail&searchKeyword=&isSoftware=&sortOrder=4" 
+            class="project" 
+            target="blank"
+            data-type="mathmetics">
+            <img 
+              class="project__img"
+              src="EBS_Math.png" 
+              alt="Youtube">
+            <div class="project__description">
+              <h3>EBS 중학</h3>
+              <span>EBS 중학 뉴런 수학1</span>
+            </div>
+          </a>
+          <a 
+            href="https://www.youtube.com/watch?v=3e6GMI4Szwk&list=PLf8roV9OYDiHCOrnXIlbrzbeQ0pJsaH8v" 
+            class="project" 
+            target="blank"
+            data-type="hardware">
+            <img 
+              class="project__img"
+              src="arduino.png" 
+              alt="Youtube">
+            <div class="project__description">
+              <h3>Arduino</h3>
+              <span>Arduino 예제 강의</span>
+            </div>
+          </a>
+          <a 
+            href="https://www.youtube.com/watch?v=QKDfObtRiAY&list=PLz2iXe7EqJOMOvz7y5w8hjZxifu-j2b24" 
+            class="project" 
+            target="blank"
+            data-type="software">
+            <img 
+              class="project__img"
+              src="scratch.png" 
+              alt="Youtube">
+            <div class="project__description">
+              <h3>스크래치</h3>
+              <span>스크래치 예제 강의</span>
+            </div>
+          </a>
+          <a 
+            href="https://github.com/dyscada/ESP32_YeonWoo_Portfolio.git" 
+            class="project" 
+            target="blank"
+            data-type="etc">
+            <img 
+              class="project__img"
+              src="github.png" 
+              alt="Youtube">
+            <div class="project__description">
+              <h3>Github</h3>
+              <span>Project 관리</span>
+            </div>
+          </a>
+        </div></div>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+      <div class="section__container"><h1>Testimonials</h1>
+        <h3>See what they say about me</h3>
+        <div class="testimonials">
+          <div class="testimonial">
+            <img 
+              src="GrandFa.png" 
+              alt="GrandFather" 
+              class="testimonial__avatar"
+            >
+            <div class="testimonial__speech-bubble">
+              <p>연우는 모범적이고 끈기가 있으며 남을 배려하는 마음을 가진 착한 어린이 입니다.</p>
+              <p class="name">
+                <a href="https://github.com/dyscada/ESP32_YeonWoo_Portfolio.git" 
+                target="blank">
+                GrandFa </a> / Daeyang Electronics</p>
+            </div>
+          </div>
+          <div class="testimonial">
+            
+            <div class="testimonial__speech-bubble">
+              <p>연우는 근면하고 성실하 며 마음이 따뜻한 어린이 이고 모든 생활이 모범적입니다.</p>
+              <p class="name">
+                <a href="https://github.com/dyscada/ESP32_YeonWoo_Portfolio.git"
+                target="blank">
+                GrandMa</a> / Daeyang Electronics</p>
+            </div>
+            <img 
+              src="GrandMa.png" 
+              alt="GrandMother" 
+              class="testimonial__avatar"
+            >
+          </div>
+        </div></div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">Yeonwoo@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/dyscada" target="blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="contact__rights">
+        2020 Yeonwoo's Portfolio - All rights reserved
+      </p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
