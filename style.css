@@ -170,13 +170,33 @@ p {
   border-radius: 20%;
   border: 2px solid var(--color-light-white);
 }
-.Yonu__avartar {
-  width: 100px;
-  height: 100px;
+.Yeonu__avartar {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 2px solid var(--color-light-white);
 }
-.Yonu__avartar:hover {
+.Yeonu__avartar:hover {
+  background-color: var(--color-blue);
+  color: var(--color-dark-white);
+}
+.Yeonjun__avartar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white);
+}
+.Yeonjun__avartar:hover {
+  background-color: var(--color-blue);
+  color: var(--color-dark-white);
+}
+.taeyun__avartar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white);
+}
+.taeyun__avartar:hover {
   background-color: var(--color-blue);
   color: var(--color-dark-white);
 }
